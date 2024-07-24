@@ -39,14 +39,8 @@ const Footer = () =>{
   <motion.section ref={ref} variants={{hidden:{opacity:0 , x:75 },visible:{opacity:1 , x:0 }}} initial="hidden" animate={mainAnimate} transition={{duration: 1 , delay: 0.7}} className={`${styles.flexCenter} ${styles.paddingY} ss:h-[650px] h-[1000px] flex-col`}>
     <div  className={`${styles.flexStart} md:flex-row flex-col mb-8 ss:w-[80%]`}>
       <div className="flex-[1] flex flex-col justify-start mr-10 ss:pt-[80px] ">
-        <img
-          id="contactus"
-          src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
-        />
         <p className={`${styles.paragraph} mt-4 mb-[50px]  max-w-[312px]`}>
-        Innovating coding solutions with precision, creativity, and unparalleled reliability.
+        Transforming tech with precision, creativity, and exceptional reliability.
         </p>
       </div>
       <form class="form" ref={form} onSubmit={sendEmail} >
