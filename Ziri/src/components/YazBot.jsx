@@ -31,7 +31,7 @@ function ChatBot() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const res = await axios.post('http://localhost:3000/ask', { question });
+      const res = await axios.post('https://ziri-bz8m.onrender.com/ask', { question });
       const userMessage = { sender: 'USER', content: question, timestamp: new Date() };
       const botResponse = { sender: 'YAZBOT', content: res.data.answer, timestamp: new Date() };
       setMessages([...messages, userMessage, botResponse]);
