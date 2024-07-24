@@ -53,7 +53,7 @@ const Business = () =>{
         You The World.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        ASIREM is your dynamic development team dedicated to turning visions into reality. We blend innovation with skill, crafting digital solutions that exceed expectations. With us, your project isn't just a task; it's the future we build together.
+        Ziri pioneers technology with precision and ingenuity, delivering tailored server solutions, adaptable Git and Docker tools, and flexible API licensing. We fuse creativity with reliability to empower your projects and shape the future of tech.
       </p>
     </div>
 
